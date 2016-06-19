@@ -3,7 +3,8 @@ SUBDIRS= gnu \
 	heirloom \
 	freebsd-10 \
 	netbsd-7.0 \
-	openbsd-5.9
+	openbsd-5.9 \
+	other-shells
 
 .PHONY: all
 all:
