@@ -1,0 +1,17 @@
+NetBSD 7 implementations of sed,awk
+===================================
+
+Copied from the NetBSD cvs source code.
+
+  export CVSROOT="anoncvs@anoncvs.NetBSD.org:/cvsroot"
+  export CVS_RSH="ssh"
+  cvs checkout -r netbsd-7 -P src/usr.bin/sed
+  cvs checkout -r netbsd-7 -P src/usr.bin/awk
+  cvs checkout -r netbsd-7 -P src/external/historical/nawk/
+
+Source code files are under various BSD Licenses,
+
+The Makefiles have been adjusted to build cleanly on GNU/Linux.
+The file netbsd-dummy.h contains stub constants,variables,marcos
+required to build the programs.
+
