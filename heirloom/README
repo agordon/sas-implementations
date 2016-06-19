@@ -1,0 +1,9 @@
+Heirloom Utilities
+==================
+
+These programs and libraries where copied from the Heirloom project:
+   http://heirloom.sourceforge.net/
+
+License for the source code is in the LICENSE sub directory.
+
+The Makefiles have been adjusted to build cleanly on GNU/Linux system.

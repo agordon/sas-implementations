@@ -1,0 +1,14 @@
+# Location for SVID4/SVR4.2-style binaries.
+#
+S42BIN = /usr/5bin/s42
+
+#
+# Location for POSIX.2/SUS-style binaries.
+#
+SUSBIN = /usr/5bin/posix
+
+#
+# Location for POSIX.1-2001/SUSv3-style binaries.
+SU3BIN = /usr/5bin/posix2001
+
+
