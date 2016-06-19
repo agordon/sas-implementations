@@ -1,0 +1,11 @@
+FreeBSD implementation of awk,sed
+=================================
+
+Copied from the FreeBSD cvs source code of FreeBSD.
+
+Source code files are under various BSD Licenses,
+see: https://www.freebsd.org/copyright/freebsd-license.html
+
+The Makefiles have been adjusted to build cleanly on GNU/Linux.
+The file freebsd-dummy.h contains stub constants,variables,marcos
+required to build the programs.

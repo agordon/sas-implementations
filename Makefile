@@ -1,5 +1,7 @@
 SUBDIRS= gnu \
-	busybox
+	busybox \
+	heirloom \
+	freebsd-10
 
 .PHONY: all
 all:
