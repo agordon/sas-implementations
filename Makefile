@@ -1,4 +1,5 @@
-SUBDIRS= gnu
+SUBDIRS= gnu \
+	busybox
 
 .PHONY: all
 all:

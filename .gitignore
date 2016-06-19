@@ -16,3 +16,7 @@ gnu/sed-4.0.6.tar.gz
 gnu/sed-4.0.6/
 gnu/sed-4.2.2.tar.gz
 gnu/sed-4.2.2/
+
+# Busybox
+busybox/busybox-1.24.2.tar.bz2
+busybox/busybox-1.24.2/
