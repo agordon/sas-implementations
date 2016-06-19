@@ -80,3 +80,15 @@ netbsd-7.0/awk/proctab.c
 netbsd-7.0/awk/ytab.h
 netbsd-7.0/sed/*.o
 netbsd-7.0/sed/sed
+
+# OpenBSD binariy objects and auto-generated files
+openbsd-5.9/awk/awk
+openbsd-5.9/awk/awkgram.c
+openbsd-5.9/awk/awkgram.h
+openbsd-5.9/awk/awkgram.o
+openbsd-5.9/awk/*.o
+openbsd-5.9/awk/maketab
+openbsd-5.9/awk/proctab.c
+openbsd-5.9/awk/ytab.h
+openbsd-5.9/sed/*.o
+openbsd-5.9/sed/sed

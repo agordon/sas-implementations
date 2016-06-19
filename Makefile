@@ -2,7 +2,8 @@ SUBDIRS= gnu \
 	busybox \
 	heirloom \
 	freebsd-10 \
-	netbsd-7.0
+	netbsd-7.0 \
+	openbsd-5.9
 
 .PHONY: all
 all:

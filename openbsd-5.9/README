@@ -1,0 +1,11 @@
+OpenBSD 5.9 implementations of sed,awk
+======================================
+
+Copied from the OpenBSD cvs source code.
+
+Source code files are under various BSD Licenses,
+
+The Makefiles have been adjusted to build cleanly on GNU/Linux.
+The file openbsd-dummy.h contains stub constants,variables,marcos
+required to build the programs.
+
