@@ -6,7 +6,7 @@ SHELLS="ksh zsh tcsh mksh dash"
 
 mkdir -p bin
 
-sudo -p "Enter sudo password to install various shells: " \
+sudo -p "Enter sudo password to install various shells with apt-get: " \
     apt-get --quiet install -y $SHELLS
 
 for s in $SHELLS ;
