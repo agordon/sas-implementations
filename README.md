@@ -39,6 +39,11 @@ Upon successful build, the directory ./bin/ will contain:
     openbsd-5.9-awk
     openbsd-5.9-sed
 
+Requirements
+------------
+
+    apt-get install make build-essential bison flex ed libbsd-dev
+
 
 
 License
