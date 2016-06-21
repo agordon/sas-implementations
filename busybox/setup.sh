@@ -14,7 +14,7 @@ if ! test -e "$BASE" ; then
 fi
 
 if ! test -d "$DIR" ; then
-    tar -xzf "$BASE"
+    tar -xf "$BASE"
 fi
 
 cd busybox-$V
