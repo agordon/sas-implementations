@@ -1,5 +1,12 @@
 
-bin
+/bin
+freebsd-10/bin/
+gnu/bin/
+heirloom/bin/
+netbsd-7.0/bin/
+openbsd-5.9/bin/
+other-shells/bin/
+busybox/bin/busybox-sas
 
 # gnu implementations
 gnu/bash-3.2.57.tar.gz
