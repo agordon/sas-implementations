@@ -27,6 +27,8 @@
 /*	from unixsrc:usr/src/common/cmd/awk/awk.h /main/uw7_nj/1	*/
 /*	from RCS Header: awk.h 1.2 91/06/25 	*/
 
+#include <inttypes.h> // for intptr_t
+
 typedef double	Awkfloat;
 
 #define	xfree(a)	{ if ((a) != NULL) { free(a); a = NULL; } }
