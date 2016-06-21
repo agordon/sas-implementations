@@ -10,7 +10,7 @@ SUBDIRS= gnu \
 all:
 	mkdir -p ./bin/
 	for d in $(SUBDIRS) ; do \
-	  $(MAKE) -C "$$d" ; \
+	  $(MAKE) -C "$$d" || exit 1 ; \
 	  cp "$$d/bin/"* ./bin/ ; \
 	done
 

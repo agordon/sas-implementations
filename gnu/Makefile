@@ -12,7 +12,7 @@ PROGS= \
 all:
 	for d in $(PROGS) ; \
 	do \
-	  sh setup.sh "$$d" ; \
+	  sh setup.sh "$$d" || exit 1; \
 	done
 
 .PHONY: clean
