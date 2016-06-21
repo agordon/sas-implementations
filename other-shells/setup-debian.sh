@@ -2,7 +2,7 @@
 
 set -e
 
-SHELLS="ksh zsh tcsh mksh"
+SHELLS="ksh zsh tcsh mksh dash"
 
 mkdir -p bin
 
